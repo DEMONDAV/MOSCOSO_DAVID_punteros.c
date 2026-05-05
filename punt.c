@@ -15,10 +15,10 @@ int main ()
  printf("%p %C\n", ptr, c);
 
  float pi=3.14 , dec;
- float *ptrF;
+ float *h;
  ptr = &pi;
- dec=*ptrF;
- printf("%p %.2f",ptrF, dec);
+ dec=*h;
+ printf("%p %.5f",h, dec);
 
 
 return 0;
