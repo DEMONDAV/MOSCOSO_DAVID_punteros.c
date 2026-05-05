@@ -14,11 +14,11 @@ int main ()
  c=*ptr;
  printf("%p %C\n", ptr, c);
 
- float pi=3.14 , dec;
+ float pi=3.14 , d;
  float *h;
  ptr = &pi;
- dec=*h;
- printf("%p %.5f",h, dec);
+ d=*h;
+ printf("%p %.5f",h, d);
 
 
 return 0;
