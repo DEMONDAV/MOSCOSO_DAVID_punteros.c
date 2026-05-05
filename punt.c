@@ -12,7 +12,14 @@ int main ()
  char *ptr;
  ptr = & letra;
  c=*ptr;
- printf("%p %C", ptr, c);
+ printf("%p %C\n", ptr, c);
+
+ float pi=3.14 , dec;
+ float *ptrF;
+ ptr = &pi;
+ dec=*ptrF;
+ printf("%p %.2f",ptrF, dec);
+
 
 return 0;
 }
